@@ -1,0 +1,70 @@
+.d-desktop {
+    visibility: hidden;
+    display: none;
+}
+
+.d-mobile{
+    visibility: visible;
+    display: inherit;
+}
+
+.logo{
+    width: 150px;
+}
+
+#now-showing .content{
+    overflow-x: scroll;
+    padding-left: 105%;
+    gap: 10px;
+}
+
+#now-showing .content::-webkit-scrollbar{
+    display: none !important;
+}
+
+#now-showing .content img{
+    width: 150px;
+}
+
+.image-poster-NowShow {
+    transition: none;
+}
+
+.image-poster-NowShow:hover {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    transition: none;
+}
+
+#upcoming-movies .content{
+    overflow-x: scroll;
+    padding-left: 105%;
+    gap: 10px;
+}
+
+#upcoming-movies .content::-webkit-scrollbar{
+    display: none !important;
+}
+
+#upcoming-movies .content img{
+    width: 150px;
+}
+
+#upcoming-movies .Months-scroll{
+    overflow-x: scroll;
+    padding-left: 140%;
+    gap: 10px;
+}
+
+#upcoming-movies .Months-scroll::-webkit-scrollbar{
+    display: none !important;
+}
+
+.justify-content-center-mobile{
+    justify-content: center;
+}
+
+.text-center-mobile{
+    text-align: center;
+}

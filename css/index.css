@@ -69,3 +69,8 @@ h1 {
 footer {
     margin-top: 100px;
 }
+
+.d-mobile{
+    visibility: hidden;
+    display: none;
+}
