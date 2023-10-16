@@ -39,7 +39,7 @@
 
 #upcoming-movies .content{
     overflow-x: scroll;
-    padding-left: 105%;
+    padding-left: 108%;
     gap: 10px;
 }
 
@@ -67,4 +67,8 @@
 
 .text-center-mobile{
     text-align: center;
+}
+
+#upcoming-movies .text-muted-mobile {
+    font-size: 15px !important;
 }
