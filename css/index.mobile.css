@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .d-desktop {
     visibility: hidden;
     display: none;
@@ -55,6 +59,7 @@
     overflow-x: scroll;
     padding-left: 140%;
     gap: 10px;
+    width: 100%;
 }
 
 #upcoming-movies .Months-scroll::-webkit-scrollbar{
@@ -71,4 +76,18 @@
 
 #upcoming-movies .text-muted-mobile {
     font-size: 15px !important;
+}
+
+.cta-mobile{
+    font-size: 46px;
+}
+
+.form-mobile{
+    width: 90%;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.btn-mobile{
+    width: 100%;
 }
